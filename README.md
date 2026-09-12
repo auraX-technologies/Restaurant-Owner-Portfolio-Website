@@ -40,14 +40,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-## 🌐 Deploying to GitHub Pages
-
-This project is fully configured for automated deployment to GitHub Pages via **GitHub Actions**. You do not need to manually run builds or push `gh-pages` branches!
-
-1. Push this code to a new repository on your GitHub account.
-2. In your GitHub repository, go to **Settings > Pages**.
-3. Under **Build and deployment**, set the **Source** to **GitHub Actions**.
-4. That's it! The included `.github/workflows/deploy.yml` will automatically build and deploy the site whenever you push to the `main` or `master` branch.
-
-Because `vite.config.ts` dynamically handles the base path, it will deploy flawlessly no matter what you name your repository.
